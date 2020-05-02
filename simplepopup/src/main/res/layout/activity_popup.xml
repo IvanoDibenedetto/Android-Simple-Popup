@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_margin="10sp"
         android:id="@+id/idText"
         android:layout_weight="1"
         android:layout_marginTop="50sp"
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:layout_margin="10sp"
         android:id="@+id/idButton"
         android:layout_weight="0"
         android:layout_width="match_parent"
