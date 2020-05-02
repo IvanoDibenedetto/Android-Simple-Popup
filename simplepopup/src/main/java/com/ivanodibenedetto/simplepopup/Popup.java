@@ -30,6 +30,6 @@ public class Popup extends Activity {
         i.putExtra("body",message);
         if(buttonText!=null)
             i.putExtra("buttonText",buttonText);
-        startActivity(i);
+        context.startActivity(i);
     }
 }
