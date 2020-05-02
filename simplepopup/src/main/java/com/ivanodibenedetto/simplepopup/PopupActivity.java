@@ -23,7 +23,7 @@ public class PopupActivity extends AppCompatActivity {
 
         int width = dm.widthPixels;
         int height = dm.heightPixels;
-        //getWindow().setLayout((int)(width*0.8f),(int)(height*0.6f));
+        getWindow().setLayout((int)(width*0.5f),(int)(height*0.5f));
 
         Bundle b = getIntent().getExtras();
         if(b!=null) {
