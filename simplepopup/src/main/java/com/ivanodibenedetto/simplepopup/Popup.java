@@ -27,7 +27,7 @@ public class Popup extends Activity {
 
         Intent i = new Intent (context, PopupActivity.class);
         i.putExtra("title",title);
-        i.putExtra("body",message);
+        i.putExtra("message",message);
         if(buttonText!=null)
             i.putExtra("buttonText",buttonText);
         context.startActivity(i);
