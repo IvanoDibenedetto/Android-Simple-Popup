@@ -1,7 +1,7 @@
 # Android-Simple-Popup
 Create popup easily for android studio projects
 
-[!hippo](https://media.giphy.com/media/gII8JwuO8IlJjmnxsm/giphy.gif)
+![hippo](https://media.giphy.com/media/gII8JwuO8IlJjmnxsm/giphy.gif)
 
 
 
