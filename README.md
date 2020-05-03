@@ -3,7 +3,7 @@ Create popup easily for android studio projects
 
 
 # how to install
-<h4> Add in root build.gradle at the end of repositories:</h4>
+<h4> Add in build.gradle(Project:...)</h4>
 
     allprojects {
 		repositories {
@@ -13,8 +13,8 @@ Create popup easily for android studio projects
   	}
     
 
-<h4> Add the dipendency:    </h4>
+<h4> Add the dipendency in build.gradle(Module:...)    </h4>
 
     dependencies {
-	        implementation 'com.github.IvanoDibenedetto:Android-Simple-Popup:1.7'
+	        implementation 'com.github.IvanoDibenedetto:Android-Simple-Popup:1.8'
 	      }
