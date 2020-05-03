@@ -10,11 +10,7 @@ public class SimplePopup extends Activity {
     private String buttonText;
     private Context context;
 
-    public SimplePopup(Context context, String title, String message){
-        this.context = context;
-        this.title = title;
-        this.message = message;
-    }
+
     public SimplePopup(Context context, String title, String message, String buttonText){
 
         this.context = context;
@@ -28,8 +24,7 @@ public class SimplePopup extends Activity {
         Intent i = new Intent (context, PopupActivity.class);
         i.putExtra("title",title);
         i.putExtra("message",message);
-        if(buttonText!=null)
-            i.putExtra("buttonText",buttonText);
+        i.putExtra("buttonText",buttonText);
         context.startActivity(i);
     }
 }

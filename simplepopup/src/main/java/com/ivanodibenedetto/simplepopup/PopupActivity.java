@@ -2,13 +2,14 @@ package com.ivanodibenedetto.simplepopup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class PopupActivity extends AppCompatActivity {
+public class PopupActivity extends Activity {
 
     TextView tv;
     Button bt;
