@@ -16,7 +16,7 @@ Create popup easily for android studio projects
 <h4> Add the dipendency in build.gradle(Module:...)    </h4>
 
     dependencies {
-	        implementation 'com.github.IvanoDibenedetto:Android-Simple-Popup:2.0'
+	        implementation 'com.github.IvanoDibenedetto:Android-Simple-Popup:2.1'
 	      }
 
 
