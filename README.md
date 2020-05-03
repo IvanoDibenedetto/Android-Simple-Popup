@@ -26,11 +26,9 @@ Create popup easily for android studio projects
 
 # example
 
-     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-	
-        SimplePopup popup = new SimplePopup(this,"Title","Message","Ok");
+     public void onClickButton(View view) {
+  
+        SimplePopup popup = new SimplePopup(this,"Title","Message","Accept");
         popup.Create();
     }
    
