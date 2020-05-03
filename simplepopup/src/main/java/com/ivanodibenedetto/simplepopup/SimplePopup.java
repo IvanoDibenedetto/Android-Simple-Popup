@@ -4,18 +4,18 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
-public class Popup extends Activity {
+public class SimplePopup extends Activity {
     private String title;
     private String message;
     private String buttonText;
     private Context context;
 
-    public Popup(Context context, String title, String message){
+    public SimplePopup(Context context, String title, String message){
         this.context = context;
         this.title = title;
         this.message = message;
     }
-    public Popup(Context context,String title, String message, String buttonText){
+    public SimplePopup(Context context, String title, String message, String buttonText){
 
         this.context = context;
         this.title = title;
