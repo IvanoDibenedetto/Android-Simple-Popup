@@ -24,7 +24,7 @@ Create popup easily for android studio projects
 
 
 
-# example
+# usage
 
      public void onClickButton(View view) {
   
